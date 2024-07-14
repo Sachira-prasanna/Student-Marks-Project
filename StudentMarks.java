@@ -7,7 +7,7 @@ import java.util.InputMismatchException;
 /**
  * Simple program to compute statistics of 'students' marks in an assignment.
  *
- * @author (Sachira Prasanna)
+ * @author (Sachira Prasanna Marasinghe)
  * @version (Version 01.0 07/12/2024)
  */
 public class StudentMarks
