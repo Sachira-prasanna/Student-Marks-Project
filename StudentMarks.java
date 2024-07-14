@@ -130,7 +130,7 @@ public class StudentMarks
     /**
      * The printAssignmentMarks method will show the all the marks which were given as input
      *  
-     */
+     **/
     public void printAssignmentMarks() {
         
         System.out.print(assignmentName + ": " );
