@@ -95,7 +95,7 @@ public class StudentMarks
     }
     
      /**
-     * The printHighest method will show the highest mark out of 30 marks which were given as input
+     * The printHighest method will show the highest mark out of 30 marks which were given as input.
      *  
      **/
     public void printHighest() {
