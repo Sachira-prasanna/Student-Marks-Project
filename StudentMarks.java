@@ -56,7 +56,7 @@ public class StudentMarks
                 // If the assignment name is not empty, break out of the loop
                 break;
             } else {
-                System.out.println("Invalid input. Assignment name cannot be empty. Please enter the assignment name.");
+                System.out.println("Invalid input. Assignment name cannot be empty. Please enter the assignment name.");//Error msg
             }
         }
     }
@@ -74,7 +74,7 @@ public class StudentMarks
                     double mark = inputScanner.nextDouble(); // Read user input in project
                     
                     if (mark <= MIN_MARK || mark >= MAX_MARK) {
-                        System.out.println("You have entered (" + mark + ") an invalid mark. Mark should be greater than 0 and less than 30.");
+                        System.out.println("You have entered (" + mark + ") an invalid mark. Mark should be greater than 0 and less than 30.");//Error msg
                         i--;
                     } else if (mark > MIN_MARK && mark < MAX_MARK) { // Check whether the marks entered are in the range of 0-30.
                         marks.add(mark);
