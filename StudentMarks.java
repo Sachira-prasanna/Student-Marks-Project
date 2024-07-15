@@ -9,7 +9,7 @@ import java.util.InputMismatchException;
  *
  * @author (Sachira Prasanna Marasinghe)
  * @version (Version 01.0 07/12/2024)
- */
+ **/
 public class StudentMarks
 {
     // instance variables 
@@ -28,7 +28,7 @@ public class StudentMarks
      * Constructor for objects of class StudentMarks
      * 
      * When it creates an object with this constructor, it executes methods call in this constructor
-     */
+     **/
     public StudentMarks()
     {
         getAssignmentName(); // Receive assignment name as the input
@@ -46,7 +46,7 @@ public class StudentMarks
     /**
      * The getAssignmentName method will receive the name of the assignment as an input 
      *  
-     */
+     **/
     public void getAssignmentName() {    
         while (true) {
             System.out.print("Enter Assignment Name: ");
@@ -64,7 +64,7 @@ public class StudentMarks
      /**
      * The getAssignmentMarks method will receive 30 student marks as an input
      *  
-     */
+     **/
     public void getAssignmentMarks() {
         
             for (int i=0; i<NO_OF_MARKS; i++) {
@@ -97,7 +97,7 @@ public class StudentMarks
      /**
      * The printHighest method will show the highest mark out of 30 marks which were given as input
      *  
-     */
+     **/
     public void printHighest() {
         
         highestMark = marks.get(0); // Assign the first entered value as the highest mark.
@@ -113,7 +113,7 @@ public class StudentMarks
     /**
      * The printLowest method will show the lowest mark out of 30 marks which were given as input
      *  
-     */
+     **/
     public void printLowest() {
         
         lowestMark = marks.get(0); // Assign the first entered value as the lowest mark.
@@ -144,7 +144,7 @@ public class StudentMarks
     /**
      * The calculateAndPrintMean method will show the mean value of the given marks
      *  
-     */
+     **/
     public void calculateAndPrintMean() {
         
         double sum = 0.0;
@@ -160,7 +160,7 @@ public class StudentMarks
     /**
      * The calculateAndPrintStandardDeviation method will show the standard deviation of the marks given as the input
      *  
-     */
+     **/
     public void calculateAndPrintStandardDeviation() {
         
         Double deviationSum = 0.0;
