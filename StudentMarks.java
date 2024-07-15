@@ -62,7 +62,7 @@ public class StudentMarks
     }
     
      /**
-     * The getAssignmentMarks method will receive 30 student marks as an input
+     * The getAssignmentMarks method will receive 30 student marks as an input.
      *  
      **/
     public void getAssignmentMarks() {
