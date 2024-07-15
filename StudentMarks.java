@@ -12,7 +12,7 @@ import java.util.InputMismatchException;
  **/
 public class StudentMarks
 {
-    // instance variables 
+    // instance variables in projects 
     private double highestMark;
     private double lowestMark;
     private String assignmentName;
@@ -20,9 +20,9 @@ public class StudentMarks
     private Double mean;
     Scanner inputScanner = new Scanner(System.in); // Create a Scanner
     
-    private static final double NO_OF_MARKS = 30; // Number of marks need to take as the input 
-    private static final double MIN_MARK = 0.0; // Minimum mark that can be taken as the input 
-    private static final double MAX_MARK = 30.0; // Maximum mark that can be taken as the input 
+    private static final double NO_OF_MARKS = 30; // Number of marks need to take as the input. 
+    private static final double MIN_MARK = 0.0; // Minimum mark that can be taken as the input. 
+    private static final double MAX_MARK = 30.0; // Maximum mark that can be taken as the input. 
 
     /**
      * Constructor for objects of class StudentMarks
@@ -71,7 +71,7 @@ public class StudentMarks
                 
                 try {
                     System.out.print("Enter mark " + (i+1) + ": ");
-                    double mark = inputScanner.nextDouble(); // Read user input
+                    double mark = inputScanner.nextDouble(); // Read user input in project
                     
                     if (mark <= MIN_MARK || mark >= MAX_MARK) {
                         System.out.println("You have entered (" + mark + ") an invalid mark. Mark should be greater than 0 and less than 30.");
@@ -82,7 +82,7 @@ public class StudentMarks
                         System.out.println("The mark you have entered is invalid.");
                         i--;
                     }
-                } catch (InputMismatchException ime) { // Handle error occurred when user enters data type other than double
+                } catch (InputMismatchException ime) { // Handle error occurred when user enters data type other than double.
                     System.out.println("The mark you have entered is invalid. You should enter a number." );
                     inputScanner.nextLine(); // Consume the invalid input
                     i--; // Retry the current iteration
@@ -133,7 +133,7 @@ public class StudentMarks
      **/
     public void printAssignmentMarks() {
         
-        System.out.print(assignmentName + ": " );
+        System.out.print(assignmentName + ": " );//
         
         for (int i=0; i< marks.size(); i++) {
             System.out.print(" " + marks.get(i));
@@ -147,7 +147,7 @@ public class StudentMarks
      **/
     public void calculateAndPrintMean() {
         
-        double sum = 0.0;
+        double sum = 0.0;//
         
         for (int i=0; i<marks.size(); i++) {
             sum = sum + marks.get(i);
@@ -163,7 +163,7 @@ public class StudentMarks
      **/
     public void calculateAndPrintStandardDeviation() {
         
-        Double deviationSum = 0.0;
+        Double deviationSum = 0.0;//
         
         for (int i=0; i<marks.size(); i++ ) {
             deviationSum = deviationSum + Math.pow((marks.get(i) - mean), 2);
@@ -173,4 +173,4 @@ public class StudentMarks
         System.out.printf("The standard deviation is: %.2f.%n", sd);
         
     }
-}
+}//
