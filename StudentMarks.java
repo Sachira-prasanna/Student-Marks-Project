@@ -111,7 +111,7 @@ public class StudentMarks
     }
 
     /**
-     * The printLowest method will show the lowest mark out of 30 marks which were given as input
+     * The printLowest method will show the lowest mark out of 30 marks which were given as input.
      *  
      **/
     public void printLowest() {
