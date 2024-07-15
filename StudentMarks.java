@@ -79,7 +79,7 @@ public class StudentMarks
                     } else if (mark > MIN_MARK && mark < MAX_MARK) { // Check whether the marks entered are in the range of 0-30.
                         marks.add(mark);
                     } else {
-                        System.out.println("The mark you have entered is invalid.");
+                        System.out.println("The mark you have entered is invalid.");//Error msg
                         i--;
                     }
                 } catch (InputMismatchException ime) { // Handle error occurred when user enters data type other than double.
