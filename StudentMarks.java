@@ -158,7 +158,7 @@ public class StudentMarks
     }
     
     /**
-     * The calculateAndPrintStandardDeviation method will show the standard deviation of the marks given as the input
+     * The calculateAndPrintStandardDeviation method will show the standard deviation of the marks given as the input.
      *  
      **/
     public void calculateAndPrintStandardDeviation() {
