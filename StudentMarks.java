@@ -142,7 +142,7 @@ public class StudentMarks
     }
     
     /**
-     * The calculateAndPrintMean method will show the mean value of the given marks
+     * The calculateAndPrintMean method will show the mean value of the given marks.
      *  
      **/
     public void calculateAndPrintMean() {
